@@ -50,7 +50,7 @@
           "children": []
         },
         {
-          "text": "小部件",
+          "text": "Widgets",
           "i18n": "menu.widgets",
           "link": "/widgets",
           "icon": "anticon-appstore",

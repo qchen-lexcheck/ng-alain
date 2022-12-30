@@ -6,17 +6,17 @@ import { APP_INITIALIZER, LOCALE_ID, NgModule, Type } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { SimpleInterceptor } from '@delon/auth';
-import { DELON_LOCALE, zh_CN as delonLang, ALAIN_I18N_TOKEN } from '@delon/theme';
-import { NZ_DATE_LOCALE, NZ_I18N, zh_CN as zorroLang } from 'ng-zorro-antd/i18n';
+import { DELON_LOCALE, en_US as delonLang, ALAIN_I18N_TOKEN } from '@delon/theme';
+import { NZ_DATE_LOCALE, NZ_I18N, en_US as zorroLang } from 'ng-zorro-antd/i18n';
 import { NzNotificationModule } from 'ng-zorro-antd/notification';
 
 // #region default language
 // 参考：https://ng-alain.com/docs/i18n
 import { I18NService } from '@core';
-import { zhCN as dateLang } from 'date-fns/locale';
+import { enUS as dateLang } from 'date-fns/locale';
 
 const LANG = {
-  abbr: 'zh',
+  abbr: 'us',
   ng: ngLang,
   zorro: zorroLang,
   date: dateLang,
